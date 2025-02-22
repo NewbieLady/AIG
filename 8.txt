@@ -8,7 +8,7 @@ Which one of the following is a valid system entity?|@sys-date
 The value of an entity detected in the user input is automatically available for the entire duration of the conversation with the user.|False
 We can use context variables to store (and later access) information collected from the user.|True
 Slots allow us to collect information from the user and store it in context variables.|True
-A dialog has the following nodes: Welcome (welcome condition) Greetings (#greetings intent condition) Thank you (#thank_you intent condition) Goodbyes (#goodbyes intent condition) Anything else (anything_else condition). Which one of the following statements is applicable?|Anything else node will be executed at any time within the conversation.
+A dialog has the following nodes: Welcome (welcome condition) Greetings (#greetings intent condition) Thank you (#thank_you intent condition) Goodbyes (#goodbyes intent condition) Anything else (anything_else condition). Which one of the following statements is applicable?|Welcome will contain the chatbot prompt and be executed at the beginning of the conversation.
 The evaluation of peer nodes proceeds top to bottom until a node with a matching condition is found. Child nodes are only considered for execution after their parent's condition is met (or if a jump is involved.)|True
 Digressions allow users to divert the conversation away from a slot while it's asking its question.|True
 Which of the following contains the entire user input?|input.text
